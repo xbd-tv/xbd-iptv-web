@@ -1,0 +1,8 @@
+{
+  "name": "xbd-iptv-web",
+  "version": "1.0.0",
+  "description": "IPTV web",
+  "main": "index.js",
+  "author": "fengpengbin",
+  "license": "MIT"
+}

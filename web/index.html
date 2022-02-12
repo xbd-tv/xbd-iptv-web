@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>IPTV</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.1.4/dist/hls.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dplayer@1.26.0/dist/DPlayer.min.js"></script>
+  </head>
+  <body>
+    <div id="dplayer"></div>
+    <script>
+      const dp = new DPlayer({
+        container: document.getElementById("dplayer"),
+        live: true,
+        danmaku: false,
+        video: {
+          url: "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8",
+          type: "hls",
+        },
+      });
+    </script>
+  </body>
+</html>
